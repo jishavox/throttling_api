@@ -1,8 +1,6 @@
 <?php
 include('db.php');
-$sql="SELECT * FROM api_token ";
-$res= mysqli_query($con,$sql);
-$g_id=$_GET['g_id'];
+$g_id=$_GET['g_id']; // get API Token Id
 if(isset($_GET['g_id']))
 {
     
