@@ -1,6 +1,6 @@
 <?php
 include('db.php');
-
+// Check API Access Token is Passed or Not
 if(isset($_GET['key']))
 {
     $key=mysqli_real_escape_string($con,($_GET['key']));
