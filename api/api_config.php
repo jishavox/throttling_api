@@ -25,6 +25,7 @@ $res= mysqli_query($con,$sql);
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+	/*-- UI Style --*/
 * {
   box-sizing: border-box;
 }
