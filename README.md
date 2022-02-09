@@ -46,6 +46,3 @@ localhost/api/api_config.php
 localhost/apicall
 
 You Can change api key from index.php -line no 5
-
- 
- 
