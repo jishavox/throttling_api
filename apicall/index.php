@@ -61,7 +61,9 @@ echo "<h3>Click Button To Get Data</h3>
     <input type='submit' name='submit' value='Get Data'>
 </form>";
 ?>
-<style>input[type=submit] {
+<style>
+ /*-- UI Style CSS --*/   
+    input[type=submit] {
   background-color: #4586a0;
   color: white;
   padding: 12px 20px;
